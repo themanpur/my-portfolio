@@ -3,7 +3,7 @@ import {Container, Row, Col, Nav, Navbar, Badge} from 'react-bootstrap';
 function Competences () {
     return (
         <Container id='competence' className='bg-light border-top border-dark' fluid>
-            <Row className='p-3 align-items-center'>
+            <Row className='md-p-3 align-items-center'>
                 <Col md={2}>
                     <Navbar.Brand href="#">
                         <Badge className='bg-dark' >THEMAN</Badge> MOBALI
