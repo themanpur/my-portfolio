@@ -6,7 +6,7 @@ import Apropos from './components/Apropos';
 import Competences from './components/Competences';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-
+import Atouts from './components/Atouts';
 function App() {
   return (
     <div className="App">
@@ -14,6 +14,7 @@ function App() {
       <Apropos />
       <Competences />
       <Contact />
+      <Atouts />
       <Footer />
     </div>
   );
