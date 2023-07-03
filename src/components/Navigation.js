@@ -4,8 +4,8 @@ function Navigation(){
     return(
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary fixed-top">
       <Container>
-        <Navbar.Brand href="#">
-          <Badge className='bg-dark' >THEMAN</Badge> MOBALI
+        <Navbar.Brand href="#contacts">
+          <Badge className='bg-dark' >Contactez moi</Badge>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -14,7 +14,6 @@ function Navigation(){
             <Nav.Link href="#competence">Competences</Nav.Link>
             <Nav.Link href="#atouts">Atouts</Nav.Link>
             <Nav.Link href="#experiences">Experiences</Nav.Link>
-            <Nav.Link href="#contacts">Contacts</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link href="https://www.linkedin.com/in/gervais-jeudong">

@@ -3,7 +3,7 @@ import coffee from '../images/grab-a-coffee.png'
 
 function Apropos () {
     return (
-        <Container id='apropos' className='my-5' fluid>
+        <Container id='contacts' className='my-5' fluid>
             <Row>
                 <h2 className='fw-bold'>Besoin d'un service ?</h2><br />
                 <p>Prenons un rendez-vous</p>
